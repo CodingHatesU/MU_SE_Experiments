@@ -27,7 +27,7 @@ public class Main {
         int fcount = 0;
         int pcount = 0;
         for(int i = 1; i <=n; i++) {
-            System.out.println("Is the Employee No."+i+": \n1)Full Time \n2)Half Time");
+            System.out.println("Is the Employee No."+i+": \n1)Full Time \n2)Part Time");
             int o = sc.nextInt();
             switch (o) {
                 case 1 -> {
